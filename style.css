@@ -12,8 +12,13 @@ end of this text is a comment. Even if I skip a line or two..
 
 
 like that^*/
-.background {
+.main {
   background-color: #333333;
+  margin-top: 90px;
+}
+
+#main {
+  margin-top: 90px;
 }
 
 /* Navigation bar */
@@ -29,9 +34,11 @@ like that^*/
   width: 100%;
 }
 
+/* old main class, obsolete!
 .main {
   margin-top: 30px;
 }
+*/
 
 /* Links inside the navbar */
 .topnav a {
