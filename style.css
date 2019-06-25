@@ -1,0 +1,55 @@
+.externalText {
+font-family: verdana;
+color: blue;
+}
+
+.externalList {
+font-family: sans-serif;
+color: green;
+}
+/*Block comment - everything between the two symbols at the beginning and
+end of this text is a comment. Even if I skip a line or two..
+
+
+like that^*/
+.background {
+  background-color: #333333;
+}
+
+/* Navigation bar */
+.topnav {
+  font-family: "Arial Rounded MT Bold";
+  font-size: 24px;
+  background-color: #333333;
+  border: 3px solid #3057c5;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  width: 100;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #3057c5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*removes underline & other link formatting*/
+}
+
+/* Change background on mouse-over */
+.topnav a:hover {
+  background: #ddd;
+  color: #3057c5;
+}
+
+/* Formatting links that have been visited */
+.topnav a:visited {
+  background: #ddd;
+  color: #3057c5;
+}

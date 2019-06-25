@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--In the line below, lang sets the language to English
+dir sets the text direction to go from "l"eft "t"o "r"ight-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><!--This is encoding info. It is not necessarily
+      required, but it's good measure to leave it in the head of your code.-->
+    <title>My First HTML Page!</title>
+    <link rel="stylesheet" href="style.css"><!--Link to an external stylesheet-->
+    <style>
+      .verdana {
+        font-family: verdana;
+        color: blue;
+      }
+      .sans-serif {
+        font-family: sans-serif;
+        color: red;
+      }
+      .impact {
+        font-family: impact;
+        color: yellow;
+      }
+      .highlight:hover {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="topnav" id="htmlpage">
+      <a href="homepage.html">Home</a>
+      <a href="aboutMe.html">About Me</a>
+      <a class="active" href="#htmlpage">First HTML Page</a>
+      <a href="wishlist.html">My Wishlist</a>
+    </div>
+
+    <div class="main">
+    <h1>I'm an h1 header!</h1>
+    <h2>I'm an h2 header!</h2>
+    <h3>I'm an h3 header!</h3>
+    <h4>I'm an h4 header!</h4>
+    <h5>I'm an h5 header!</h5>
+    <h6>I'm an h6 header!</h6>
+    <hr></hr>
+    <i>This is the body of my first basic HTML page!</i> To jump to my photo, click on the word <a href="#photo">photo</a><br>
+    <br>
+    <p>
+      This is the first HTML page made by me! The atom IDE is really helpful in coding!
+      I remember little bits and pieces of HTML, but it is definitely necessary to learn it again.
+      I want to relearn HTML, and CSS and eventually learn js and other languages. I don't know
+      where this sudden spark of interest in coding came from, but I'm glad I got back into it.
+      I'm really into design! I like to <i>see</i> the work I've done be brought to life on a page!
+      This page will contain <b>paragraphs</b>, <b>lists</b>, <b>formatted text</b> and more!<br></br>
+      I just used a break! Here's another:<br></br> I forgot how to code a numbered list :/
+    </p>
+    <a href="https://2063f2ae577505bd4ce6-3dcd0d56a5591e9f14c950b6938e989e.ssl.cf1.rackcdn.com/2C3CDXJG9KH542268/0beb8f1c7713db067a6a98a44c7fea31.jpg">Link to an image of my favorite car!</a><br></br>
+
+    <ls><b>Does this list title show?</b>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li><u>list item 3</u></li>
+      <li>list item 4</li>
+      <li>list item 5</li>
+      <li>list item 6</li>
+    </ls> <br></br>
+    <span>I figured out how to add a numbered list! It's actually the ORDERED LIST html function!</span>
+    <ol>
+      <li>I'm number 1</li>
+      <li>I can't be number two..</li>
+      <li>Number 3 in the list</li>
+    </ol>
+
+<!--shoppinglist-->
+    <ul>
+      <li>milk</li>
+      <li>eggs</li>
+      <li>cheese</li>
+      <li>bread</li>
+      <li>salt</li>
+    </ul>
+
+    Now, I want to add an image to this page! I have to use the img tag!
+    <img src="https://2063f2ae577505bd4ce6-3dcd0d56a5591e9f14c950b6938e989e.ssl.cf1.rackcdn.com/2C3CDXJG9KH542268/0beb8f1c7713db067a6a98a44c7fea31.jpg" alt="Dodge Charger" id="photo"></img>
+
+    <p>Now I will try to add different fonts, using CSS. This first one will be inline. Are you ready?</p>
+    <p style="font-family: verdana">This is a verdana font.</p>
+    <p style="font-family: sans-serif">This is a sans serif font!</p>
+    <p style="font-family: impact" class="highlight">Does this impact font even work?</p>
+
+    <p>Phew! That was fun. Lets try using CSS tags. This is where we define CSS styles in the header and call on the style we want in each specific piece of the body.
+      Lets keep using the same fon'ts from before, and keep the same sentence but change the way we call it. We can maybe add some color here too :) Here goes nothing:</p>
+    <p>Here is a normal sentence. No styling applied.</p>
+    <p class="verdana">This is a blue, verdana font.</p>
+    <p class="sans-serif">This is a red sans serif font.</p>
+    <p class="impact">Does this impact font even work?</p>
+    <p>Alright, that was a lot of work and style. Let's unwind now. There's still more to learn. Next: external CSS file. I promise it's not hard.</p>
+
+    <p class="externalText">Let's jump right into it. This text will have a class called "externalText" - the text will be styled in an external .CSS file.</p>
+    <ul class="externalList">This list will be part of the "external list" class - you can style a whole list with it!
+      <li><b>only this is bold!</b></li>
+      <li><i>only this is italicized!</i></li>
+      <li><u>you see what I'm getting at right?..</u></li>
+      <li>Now we return to only using CSS styling</li>
+    </ul>
+    <p>Alright, alright calm down everyone. I know that was exciting, but let's get back to business.</p>
+
+    <hr></hr>
+    <h3>This is the footer</h3>
+    <p>All rights reserved.. to me.. yes, <i>me</i>.</p>
+    </div>
+  </body>
+</html>
