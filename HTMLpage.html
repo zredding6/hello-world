@@ -7,34 +7,16 @@ dir sets the text direction to go from "l"eft "t"o "r"ight-->
       required, but it's good measure to leave it in the head of your code.-->
     <title>My First HTML Page!</title>
     <link rel="stylesheet" href="style.css"><!--Link to an external stylesheet-->
-    <style>
-      .verdana {
-        font-family: verdana;
-        color: blue;
-      }
-      .sans-serif {
-        font-family: sans-serif;
-        color: red;
-      }
-      .impact {
-        font-family: impact;
-        color: yellow;
-      }
-      .highlight:hover {
-        background-color: yellow;
-      }
-    </style>
   </head>
-  <body>
+  <body class="body">
 <div id="main">
     <!-- Navigation bar -->
-    <div class="topnav" id="htmlpage">
+    <div class="topnav">
       <a href="homepage.html">Home</a>
       <a href="aboutMe.html">About Me</a>
       <a class="active" href="#htmlpage">First HTML Page</a>
       <a href="favcars.html">My Favorite Cars</a>
     </div>
-
 
     <h1>I'm an h1 header!</h1>
     <h2>I'm an h2 header!</h2>
@@ -46,7 +28,7 @@ dir sets the text direction to go from "l"eft "t"o "r"ight-->
     <i>This is the body of my first basic HTML page!</i> To jump to my photo, click on the word <a href="#photo">photo</a><br>
     <br>
     <p>
-      This is the first HTML page made by me! The atom IDE is really helpful in coding!
+      This is the <span class="bold">first</span> HTML page made by me! The atom IDE is really helpful in coding!
       I remember little bits and pieces of HTML, but it is definitely necessary to learn it again.
       I want to relearn HTML, and CSS and eventually learn js and other languages. I don't know
       where this sudden spark of interest in coding came from, but I'm glad I got back into it.
