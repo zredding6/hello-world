@@ -94,23 +94,27 @@ color: green;
   box-shadow: 24px 9px 6px grey;
 }
 
+.card:hover {
+  box-shadow: 36px 18px 6px grey;
+}
+
 .cardInner {
   border: 2px solid #333333;
   width: 350px;
   height: auto;
-  background-color: #D1DFFE;
+  background-color: #D1DFFE; /* Light-blue background */
   padding: 5px;
 }
 
 .cardInner:hover {
-  background-color: #1059F8;
-  width: 400px;
+  background-color: #1059F8; /* Blue hover background */
+  width: 355px;
   height: auto;
   color: white;
 }
 
 .cardInner:hover img {
-  width: 400px;
+  width: 100%;
   background-color: white;
   padding: none;
 }
@@ -151,8 +155,20 @@ element within the page >> */
   /* background-color: #333333; */
 }
 
+/* commenting out before deleting below code
 .cardTitle {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 9px;
+}
+*/
+
+#cardTitle {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0 9px;
+}
+
+.cardText {
+  padding: 0 9px;
 }
