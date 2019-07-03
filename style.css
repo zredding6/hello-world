@@ -1,45 +1,8 @@
 /* I want to add a checkbox in the navbar to enable/disable dark mode! */
 
-.externalText {
-font-family: verdana;
-color: blue;
-}
-
-.externalList {
-font-family: sans-serif;
-color: green;
-}
-
-.verdana {
-  font-family: verdana;
-  color: blue;
-}
-.sans-serif {
-  font-family: sans-serif;
-  color: red;
-}
-.impact {
-  font-family: impact;
-  color: yellow;
-}
-
-.highlight:hover {
-  background-color: yellow;
-}
-
-.bigLetter {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.main {
-  margin-top: 90px;
-}
-
-#main {
-  margin-top: 90px;
-}
-
+/*
+------------------------------------Entire site------------------------------------
+*/
 .body {
   background-color: #333333;
 }
@@ -57,7 +20,6 @@ color: green;
   width: 100%;
 }
 
-
 /* Links inside the navbar */
 .topnav a {
   float: left;
@@ -65,33 +27,90 @@ color: green;
   color: #3D75EF;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; /*removes underline & other link formatting*/
+  text-decoration: none; /* removes underline & other link formatting in navbar */
 }
 
-/* Change background on mouse-over */
+/* Change navbar background on mouse-over */
 .topnav a:hover {
   background: #3D75EF;
   color: white;
 }
 
-/* Formatting links that have been visited */
+/* Formatting navbar links that have been visited */
 .topnav a:visited {
   background: #3D75EF;
   color: white;
 }
 
+/* practice attempt at making a scrollover menu */
 .menu_button {
   margin-top: 10px;
   width: 50px;
   height: 10px;
 }
 
+/*
+------------------------------Home Page - homepage.html------------------------------
+*/
+.main {
+  margin-top: 90px;
+}
+
+/*
+------------------------------About Me - aboutMe.html------------------------------
+*/
+
+
+/*
+------------------------My First HTML Page - HTMLpage.html------------------------
+*/
+.externalText {
+font-family: verdana;
+color: blue;
+}
+
+.externalList {
+font-family: sans-serif;
+color: green;
+}
+
+.verdana {
+  font-family: verdana;
+  color: blue;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+  color: red;
+}
+
+.impact {
+  font-family: impact;
+  color: yellow;
+}
+
+.highlight:hover {
+  background-color: yellow;
+}
+
+#main { /* html page */
+  margin-top: 90px;
+}
+
+/*
+------------------------My Favorite Cars - favcars.html------------------------
+*/
+.bigLetter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .card {
-  /* How can I display cards side by side? */
   width: 350px;
   float: left;
   margin: 20px;
   box-shadow: 24px 9px 6px grey;
+  transition: box-shadow 0.3s;
 }
 
 .card:hover {
@@ -119,23 +138,16 @@ color: green;
   padding: none;
 }
 
-.cardInner:hover div {
-  width: auto;
-  border: none;
-  background: none;
-}
-
 a.cardLink {
   text-decoration: none;
-  color: black;
-  display: block;
+  color: #333333;
 }
 
 .cardLink:hover {
   color: white;
 }
 
-.cardImage {
+.cardImage-background {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -144,24 +156,15 @@ a.cardLink {
   border: 1px solid #333333;
   align: right;
 /*  z-index: -1; << This z-index attribute is used to set the order of the
-element within the page >> */
+element within the page. Want to figure out how to use it and apply it. >> */
 }
 
-.cardImage img {
+.cardImage {
   width: 350px;
   align: right;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: #333333; */
 }
-
-/* commenting out before deleting below code
-.cardTitle {
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 9px;
-}
-*/
 
 #cardTitle {
   font-weight: bold;
